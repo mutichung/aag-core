@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aag-core"
+version = "0.1.0"
+description = "The AAG python library that helps you split the bill with your friends."
+authors = ["Muti Chung <mtchung037@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gspread = "^5.12.4"
+pycord = "^0.1.1"
+pydantic = "^2.5.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.11"
+
+
+[tool.poetry.group.host.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
